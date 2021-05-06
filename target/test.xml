@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEvbgt6M "http://testng.org/testng-1.0.dtd">
+<suite name="first_trial" parallel="tests">
+    <test name="chrome">
+        <classes>
+            <class name="creatadocumenttests.CreatADocumentTests">
+                <methods>
+                    <include name="testIntentToLean"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

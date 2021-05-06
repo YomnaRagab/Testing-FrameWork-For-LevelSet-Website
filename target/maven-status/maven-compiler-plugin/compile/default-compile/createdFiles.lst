@@ -1,0 +1,7 @@
+browseractions\BrowserActions$1.class
+browseractions\BrowserActions$webddriver_enum.class
+webactions\WebActions$action_enum.class
+pages\CreatADocumentPage.class
+browseractions\BrowserActions.class
+webactions\WebActions.class
+base\Base.class
