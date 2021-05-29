@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c12dcba-52c1-487c-8225-407c51e22c60" name="Default Changelist" comment="" />
+    <list default="true" id="2c12dcba-52c1-487c-8225-407c51e22c60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wrappers/PropFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wraperstests/WrapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/browseractions/BrowserActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browseractions/BrowserActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CreatADocumentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CreatADocumentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webactions/WebActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webactions/WebActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basetests/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basetests/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browseractions/BrowserActions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browseractions/BrowserActions$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browseractions/BrowserActions$webddriver_enum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browseractions/BrowserActions$webddriver_enum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browseractions/BrowserActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/browseractions/BrowserActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CreatADocumentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CreatADocumentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webactions/WebActions$action_enum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webactions/WebActions$action_enum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webactions/WebActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webactions/WebActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/basetests/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/basetests/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/creatadocumenttests/CreatADocumentTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/creatadocumenttests/CreatADocumentTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1obiKY9UDhzblqp5ksPke9j1Wtf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -33,14 +57,15 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\IdeaProjects\Design_day1\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\IdeaProjects\Design_day1\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\IdeaProjects\Design_day1" />
+      <recent name="C:\Users\Dell\IdeaProjects\Design_day1\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Dell/IdeaProjects/Design_day1/target/test.xml">
+  <component name="RunManager" selected="TestNG.WrapperTests">
     <configuration name="C:/Users/Dell/IdeaProjects/Design_day1/target/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="SUITE_NAME" value="$PROJECT_DIR$/target/test.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -50,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatADocumentTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreatADocumentTests.testIntentToLean" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Design_day1" />
       <extension name="coverage">
         <pattern>
@@ -60,6 +85,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="creatadocumenttests" />
       <option name="MAIN_CLASS_NAME" value="creatadocumenttests.CreatADocumentTests" />
+      <option name="METHOD_NAME" value="testIntentToLean" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatADocumentTests.testPreliminaryNotice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Design_day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creatadocumenttests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="creatadocumenttests" />
+      <option name="MAIN_CLASS_NAME" value="creatadocumenttests.CreatADocumentTests" />
+      <option name="METHOD_NAME" value="testPreliminaryNotice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrapperTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Design_day1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="wraperstests.WrapperTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -67,17 +122,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatADocumentTests.testSth" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WrapperTests.testPropFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Design_day1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creatadocumenttests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="creatadocumenttests" />
-      <option name="MAIN_CLASS_NAME" value="creatadocumenttests.CreatADocumentTests" />
-      <option name="METHOD_NAME" value="testSth" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="wraperstests.WrapperTests" />
+      <option name="METHOD_NAME" value="testPropFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,9 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WrapperTests" />
+        <item itemvalue="TestNG.WrapperTests.testPropFile" />
+        <item itemvalue="TestNG.CreatADocumentTests.testIntentToLean" />
+        <item itemvalue="TestNG.CreatADocumentTests.testPreliminaryNotice" />
         <item itemvalue="TestNG.C:/Users/Dell/IdeaProjects/Design_day1/target/test.xml" />
-        <item itemvalue="TestNG.CreatADocumentTests" />
-        <item itemvalue="TestNG.CreatADocumentTests.testSth" />
       </list>
     </recent_temporary>
   </component>
@@ -107,10 +158,6 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613572737422">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1613572737422" />
     <state x="651" y="165" key="#xdebugger.XInspectDialog" timestamp="1613755962565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -127,22 +174,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1613756285013" />
-    <state width="1493" height="144" key="GridCell.Tab.0.bottom" timestamp="1615737249018">
+    <state width="1493" height="144" key="GridCell.Tab.0.bottom" timestamp="1622294001296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615737249018" />
-    <state width="1493" height="144" key="GridCell.Tab.0.center" timestamp="1615737249018">
+    <state width="1493" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622294001296" />
+    <state width="1493" height="144" key="GridCell.Tab.0.center" timestamp="1622294001296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615737249018" />
-    <state width="1493" height="144" key="GridCell.Tab.0.left" timestamp="1615737249018">
+    <state width="1493" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622294001296" />
+    <state width="1493" height="144" key="GridCell.Tab.0.left" timestamp="1622294001296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615737249018" />
-    <state width="1493" height="144" key="GridCell.Tab.0.right" timestamp="1615737249018">
+    <state width="1493" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622294001296" />
+    <state width="1493" height="144" key="GridCell.Tab.0.right" timestamp="1622294001296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615737249018" />
+    <state width="1493" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622294001296" />
     <state width="1493" height="150" key="GridCell.Tab.1.bottom" timestamp="1613761309757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -167,10 +214,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1613756805702" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1616333605442">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1622293659291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1616333605442" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1622293659291" />
     <state x="209" y="108" key="new project wizard" timestamp="1616333648646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -179,5 +226,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1613752570591" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/webactions/WebActions.java</url>
+          <line>20</line>
+          <properties class="webactions.WebActions" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

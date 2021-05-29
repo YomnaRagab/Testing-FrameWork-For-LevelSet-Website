@@ -12,6 +12,11 @@ public class WebActions {
         presence,
         visible
     }
+    public enum locator_enum{
+        XPath,
+        ID,
+        CSS
+    }
     private WebDriver driver;
     public WebActions(WebDriver driver){
         this.driver = driver;
@@ -41,6 +46,26 @@ public class WebActions {
             return true;
         }
         return false;
+    }
+    public void navigateToPage(String url,By field){
+        driver.get(url);
+        if (field != null){
+            waitUntil(field,action_enum.presence);
+
+        }
+
+    }
+    public By returnElementLocator (String selector,locator_enum loc){
+        switch (loc){
+            case XPath:
+                return new By.ByXPath(selector);
+            case ID:
+                return new By.ById(selector);
+            case CSS:
+                return new By.ByCssSelector(selector);
+            default:
+                return null;
+        }
     }
     public String getText(By element){
         try{

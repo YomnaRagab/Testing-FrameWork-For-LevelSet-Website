@@ -16,8 +16,9 @@ public class Base {
         webactions = new WebActions(driver);
     }
     public void navigateToHomePage(){
-        driver.get(baseURL); // go to home page
-        webactions.waitUntil(By.id("page-wrap"), WebActions.action_enum.visible);
+        webactions.navigateToPage(baseURL,By.id("page-wrap"));
+//        driver.get(baseURL); // go to home page
+//        webactions.waitUntil(By.id("page-wrap"), WebActions.action_enum.visible);
     }
     public CreatADocumentPage navigateToCreatDoc(){
         driver.findElement(creatDocumentField).click();

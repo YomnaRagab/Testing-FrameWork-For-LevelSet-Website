@@ -29,8 +29,10 @@ public class CreatADocumentPage {
             webactions.clickOn(generateTabXPath(tabBaseField,preliminaryNoticeString));
             //driver.findElement(generateTabXPath(tabBaseField,preliminaryNoticeString)).click();
         }
-        public String findHeaderOfPreliminaryNotice(){
-            return driver.findElement(headerField).getText();
+        public String findHeaderOfPreliminaryNotice()
+        {
+            return webactions.getText(headerField);
+            //return driver.findElement(headerField).getText();
         }
         public String findPriceOfPreliminaryNotice(){
             return webactions.getText(generateTabXPath(priceBaseField,preliminaryNoticeString));
@@ -39,10 +41,12 @@ public class CreatADocumentPage {
     /*Intent To Lien Tab*/
 
     public void clickOnIntentToLien(){
-        driver.findElement(generateTabXPath(tabBaseField,intentToLienString)).click();
+        webactions.clickOn(generateTabXPath(tabBaseField,intentToLienString));
+        //driver.findElement(generateTabXPath(tabBaseField,intentToLienString)).click();
     }
     public String findHeaderOfIntentToLien(){
-        return driver.findElement(headerField).getText();
+       return webactions.getText(headerField);
+        //return driver.findElement(headerField).getText();
     }
     public String findPriceOfIntentToLien(){
         return webactions.getText(generateTabXPath(priceBaseField,intentToLienString));
@@ -51,10 +55,13 @@ public class CreatADocumentPage {
     /*Lien / Bond Claim Tab*/
 
     public void clickOnBondClaim(){
-        driver.findElement(generateTabXPath(tabBaseField,bondClaimString)).click();
+        webactions.clickOn(generateTabXPath(tabBaseField,bondClaimString));
+      //  driver.findElement(generateTabXPath(tabBaseField,bondClaimString)).click();
     }
     public String findHeaderOfBondClaim(){
-        return driver.findElement(headerField).getText();
+
+        return webactions.getText(headerField);
+       // return driver.findElement(headerField).getText();
     }
     public String findPriceOfBondClaim(){
         return webactions.getText(generateTabXPath(priceBaseField,bondClaimString));
@@ -64,10 +71,12 @@ public class CreatADocumentPage {
 
 
     public void clickOnLienWaiver(){
-        driver.findElement(generateTabXPath(tabBaseField,lienWaiverString)).click();
+        webactions.clickOn(generateTabXPath(tabBaseField,lienWaiverString));
+       // driver.findElement(generateTabXPath(tabBaseField,lienWaiverString)).click();
     }
     public String findHeaderOfLienWaiver(){
-        return driver.findElement(headerField).getText();
+        return webactions.getText(headerField);
+        //return driver.findElement(headerField).getText();
     }
     public String findPriceOfLienWaiver(){
         return webactions.getText(generateTabXPath(priceBaseField,lienWaiverString));
@@ -75,7 +84,8 @@ public class CreatADocumentPage {
 
 
     public By generateTabXPath(String base,String field){
-        return new By.ByXPath(String.format(base,field));
+        return webactions.returnElementLocator(String.format(base,field), WebActions.locator_enum.XPath);
+       // return new By.ByXPath(String.format(base,field));
     }
     //private By intentLienField = new By.ByXPath("//div[contains(@class, 'sc-AxjAm bcMPWx') and contains(.//div, 'Notice of Intent to Lien')]");
 

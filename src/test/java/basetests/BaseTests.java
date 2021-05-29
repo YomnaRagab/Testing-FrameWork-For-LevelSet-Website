@@ -21,7 +21,8 @@ public class BaseTests {
     @BeforeClass
     public void setUp(){
 
-        BrowserActions.initializeWebDriver(BrowserActions.webddriver_enum.chrome);
+        BrowserActions.initializeWebDriver(BrowserActions.webddriver_enum.firefox);
+        BrowserActions.maximizieScreen();
         wait=new WebDriverWait(BrowserActions.driver, 40);
         home = new Base(BrowserActions.driver);
         webactions =  new WebActions(BrowserActions.driver);

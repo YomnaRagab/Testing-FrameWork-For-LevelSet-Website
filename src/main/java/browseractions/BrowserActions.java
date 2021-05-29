@@ -29,6 +29,9 @@ public class BrowserActions {
                 break;
         }
     }
+    public static void maximizieScreen(){
+        driver.manage().window().maximize();
+    }
     public static void closeDriver()
     {
         driver.quit();

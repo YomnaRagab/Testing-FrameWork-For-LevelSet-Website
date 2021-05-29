@@ -2,6 +2,18 @@
 <!DOCTYPE suite SYSTEvbgt6M "http://testng.org/testng-1.0.dtd">
 <suite name="first_trial" parallel="tests">
     <test name="chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="creatadocumenttests.CreatADocumentTests">
+                <methods>
+                    <include name="testIntentToLean"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="firefox">
+        <parameter name="browser" value="firefox" />
         <classes>
             <class name="creatadocumenttests.CreatADocumentTests">
                 <methods>
